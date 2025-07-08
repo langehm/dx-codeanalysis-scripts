@@ -1,0 +1,24 @@
+[project]
+name = "codebase-evaluation"
+version = "1.0.0"
+description = "Python project to evaluate codebase health of a github group for classification of the developer experience."
+license = { text = "EUPL v1.2" }
+authors = [
+    { name = "langehm" }
+]
+repository = "https://github.com/langehm/dx-codeanalysis-scripts"
+readme = "README.md"
+keywords = [ "developer experience", "evaluation", "dx", "codebase health" ]
+requires-python = "==3.13.5"
+dependencies = [
+    "dotenv (==0.9.9)",
+]
+
+[dependency-groups]
+dev = [
+    "pyrefly (==0.22.1)",
+    "ruff (==0.12.2)",
+]
+
+[tool.uv]
+package = false

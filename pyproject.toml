@@ -12,6 +12,10 @@ keywords = [ "developer experience", "evaluation", "dx", "codebase health" ]
 requires-python = "==3.13.5"
 dependencies = [
     "dotenv (==0.9.9)",
+    "gitpython>=3.1.44",
+    "pygithub>=2.6.1",
+    "requests>=2.32.4",
+    "tqdm>=4.67.1",
 ]
 
 [dependency-groups]
